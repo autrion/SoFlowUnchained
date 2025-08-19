@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SO2 Air Codex</string>
+    <string name="warning_title">Warning</string>
+    <string name="warning_message">Speeds above 20 km/h may be illegal. Continue?</string>
+    <string name="warning_confirm">Continue</string>
+    <string name="warning_cancel">Cancel</string>
+</resources>
