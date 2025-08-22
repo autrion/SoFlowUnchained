@@ -10,8 +10,8 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Bluetooth
 import androidx.compose.material.icons.filled.Build
-import androidx.compose.material.icons.filled.List as ListIcon
 import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.filled.List
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -55,7 +55,7 @@ fun BottomBar(nav: NavHostController) {
         NavigationBarItem(selected = false, onClick = { nav.navigate("scan") }, label = { Text("Scan") }, icon = { Icon(Icons.Filled.Bluetooth, null) })
         NavigationBarItem(selected = false, onClick = { nav.navigate("control") }, label = { Text("Control") }, icon = { Icon(Icons.Filled.Build, null) })
         NavigationBarItem(selected = false, onClick = { nav.navigate("settings") }, label = { Text("Settings") }, icon = { Icon(Icons.Filled.Settings, null) })
-        NavigationBarItem(selected = false, onClick = { nav.navigate("logs") }, label = { Text("Logs") }, icon = { Icon(ListIcon, null) })
+        NavigationBarItem(selected = false, onClick = { nav.navigate("logs") }, label = { Text("Logs") }, icon = { Icon(Icons.Filled.List, null) })
     }
 }
 
